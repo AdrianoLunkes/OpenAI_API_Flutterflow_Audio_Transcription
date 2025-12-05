@@ -1,0 +1,37 @@
+key: Text_s7ar17hy
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: ACTION_OUTPUTS
+        defaultValue:
+          serializedValue: Transcription
+        baseVariable:
+          actionOutput:
+            outputVariableIdentifier:
+              name: apiResult47l
+            actionKeyRef:
+              key: jpo9cbqb
+        operations:
+          - apiResponseField:
+              responseField: JSON_BODY
+          - jsonPathOperation:
+              jsonPath: $.text
+        nodeKeyRef:
+          key: Button_jp252gr2
+        actionComponentKeyRef: {}
+      mostRecentInputValue: The transcribed adio" will be displayed here
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 40
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+name: txt_answer
+valueKey: {}

@@ -1,0 +1,17 @@
+key: Text_zrycyj4w
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_MEDIUM
+    textValue:
+      inputValue: Audio Transcription
+    fontSizeValue:
+      inputValue: 26
+    colorValue:
+      inputValue:
+        value: "4294967295"
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1

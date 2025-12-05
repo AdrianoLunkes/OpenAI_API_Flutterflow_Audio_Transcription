@@ -1,0 +1,20 @@
+database:
+  apiCall:
+    endpointIdentifier:
+      name: Audio Transcription Call
+      key: bw6b4
+    variables:
+      - variableIdentifier:
+          name: variable_file
+          key: b8qfotbt
+        variable:
+          source: WIDGET_STATE
+          baseVariable:
+            widgetState:
+              actionType: UPLOAD_DATA
+              actionKeyRef:
+                key: nfbgaq0u
+          nodeKeyRef:
+            key: Button_jp252gr2
+outputVariableName: apiResult47l
+key: jpo9cbqb

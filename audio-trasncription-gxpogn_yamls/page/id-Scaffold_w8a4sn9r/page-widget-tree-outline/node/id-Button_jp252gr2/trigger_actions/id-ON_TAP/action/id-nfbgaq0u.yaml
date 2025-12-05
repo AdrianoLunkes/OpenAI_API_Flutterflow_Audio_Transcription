@@ -1,0 +1,14 @@
+key: nfbgaq0u
+uploadData:
+  settings:
+    allowedTypes:
+      photo: false
+      video: false
+      file: true
+    source: FILES
+    fileType: AUDIO
+    showSnackBar: false
+    localFileVariable:
+      dynamicComponentAccess: {}
+  destination: LOCAL_FILE
+  actionName: UploadData_h5t

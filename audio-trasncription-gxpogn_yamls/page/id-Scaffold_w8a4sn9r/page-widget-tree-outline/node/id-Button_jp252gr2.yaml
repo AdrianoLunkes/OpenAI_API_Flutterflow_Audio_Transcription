@@ -1,0 +1,34 @@
+key: Button_jp252gr2
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      textValue:
+        inputValue: Send Audio
+      colorValue:
+        inputValue:
+          value: "4294967295"
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 8
+    innerPadding:
+      leftValue:
+        inputValue: 16
+      rightValue:
+        inputValue: 16
+    dimensions:
+      height:
+        pixelsValue:
+          inputValue: 40
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        value: "4294340345"
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 20
+name: Send_Audio

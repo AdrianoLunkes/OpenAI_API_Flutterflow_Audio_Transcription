@@ -1,0 +1,21 @@
+key: Container_3hixt9hf
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 647.0000457763672
+    boxDecoration:
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+    animationDurationValue:
+      inputValue: 100
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 50

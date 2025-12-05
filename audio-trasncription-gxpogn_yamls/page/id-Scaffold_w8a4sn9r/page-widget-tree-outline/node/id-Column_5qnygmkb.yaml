@@ -1,0 +1,7 @@
+key: Column_5qnygmkb
+type: Column
+props:
+  column:
+    primary: true
+  padding:
+    type: FF_PADDING_ALL

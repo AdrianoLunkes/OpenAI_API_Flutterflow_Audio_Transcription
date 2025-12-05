@@ -1,0 +1,36 @@
+rootAction:
+  key: 0kdrf6m5
+  action:
+    key: nfbgaq0u
+  followUpAction:
+    key: tjwlu1tt
+    action:
+      key: jpo9cbqb
+    followUpAction:
+      key: p4k08lbd
+      conditionActions:
+        falseAction:
+          key: gyl44k5v
+          action:
+            key: s8lo5dt5
+        trueActions:
+          - condition:
+              variable:
+                source: ACTION_OUTPUTS
+                baseVariable:
+                  actionOutput:
+                    outputVariableIdentifier:
+                      name: apiResult47l
+                    actionKeyRef:
+                      key: jpo9cbqb
+                operations:
+                  - apiResponseField:
+                      responseField: SUCCEEDED
+                nodeKeyRef:
+                  key: Button_jp252gr2
+            trueAction:
+              key: y0n6lmzb
+              action:
+                key: 03gl5bcg
+trigger:
+  triggerType: ON_TAP
