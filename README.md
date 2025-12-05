@@ -1,7 +1,7 @@
 # Project Four – Audio Transcription (OpenAI + Flutterflow)
 # Quck Short Project
 This project integrates OpenAI’s powerful Transcription API (gpt-4o-transcribe / Whisper) into FlutterFlow. Users upload audio files (mp3, wav, etc.) → accurate, clean text transcription
-Link (https://audio-trasncription-gxpogn.flutterflow.app/)
+|| Link (https://audio-trasncription-gxpogn.flutterflow.app/)
 
 # 1. Project Explanation
 
